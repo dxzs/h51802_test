@@ -1,0 +1,56 @@
+.dx-container {
+	position: relative;
+	border:1px solid;
+}
+.dx-container .imgs {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	list-style: none;
+}
+.dx-container .imgs li {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:0;
+	left: 0;
+	display: none;
+}
+.dx-container .imgs li a img{
+	width: 800px;
+	height: 600px;
+}
+.dx-container .pages {
+	height: 30px;
+	background: #000;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.dx-container .pages i {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: #fff;
+	margin:10px;
+}
+.dx-container .pages i.current {
+	background: #f00;
+}
+.dx-container .prev, .next {
+	width: 45px;
+	height: 100px;
+	background: #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	color: #fff;
+	font-size: 30px;
+	line-height: 100px;
+	text-align: center;
+}
+.dx-container .next {
+	right: 0;
+}
